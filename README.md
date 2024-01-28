@@ -34,5 +34,5 @@ https://shielded-sands-53729-b40efddc01a7.herokuapp.com/notes
 For any questions, please contact [mmorrow6109](https://github.com/mmorrow6109) or email at msmorrow6109@gmail.com.
 
 ## Screenshots
-![Notes 1 Image](./notes1.png)
-![Notes 2 Image](./notes2.png)
+![Notes 1 Image](<Develop/notes1.png>)
+![Notes 2 Image](<Develop/notes2.png>)
