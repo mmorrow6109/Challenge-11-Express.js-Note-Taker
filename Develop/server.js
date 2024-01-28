@@ -6,9 +6,9 @@ const port = process.env.PORT || 3001;
 const app = express();
 
 //middleware
-app.use(express.urlencoded({ extended: false }));
+app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(express.static('Develop/Public'));
+app.use(express.static('Public'));
 app.use('/', htmlRoutes);
 app.use('/api', apiRoutes);
 
@@ -17,4 +17,4 @@ app.listen(port, () => {
 });
 
 // Route for getting the home page
-app.get('*', (req, res) => res.sendFile(path.join(__dirname, '..', 'Public', 'index.html')));
+// app.get('*', (req, res) => res.sendFile(path.join(__dirname, '..', 'Public', 'index.html')));
